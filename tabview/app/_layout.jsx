@@ -12,9 +12,10 @@ export default function RootLayout() {
         }}
       />
       <Tabs.Screen
-        name="projects"
+        name="trainings"
         options={{
-          title: 'Projects',
+          headerShown:false,
+          title: 'Trainings',
           tabBarIcon: ({ color }) => <FontAwesome size={28} name="th-large" color={color} />,
         }}
       />
